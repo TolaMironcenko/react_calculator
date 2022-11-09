@@ -1,10 +1,11 @@
-import './css/App.css';
-import Calculator from './components/Calculator/Calculator';
+import React from "react";
 
-function App() {
+import Calculator from "./components/Calculator/Calculator";
+
+const App = () => {
   return (
     <Calculator/>
   );
-}
+};
 
 export default App;

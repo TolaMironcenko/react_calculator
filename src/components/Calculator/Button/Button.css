@@ -1,4 +1,29 @@
-.calc_button {
+/* button {
+    border: none;
+    background-color: rgb(80, 60, 209);
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(61, 43, 184);
+}
+
+.equals {
+    grid-column: 3 / 5;
+    background-color: rgb(243, 61, 29);
+}
+
+.equals:hover {
+    background-color: rgb(228, 39, 15);
+} */
+
+button {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     background: rgba(255, 255, 255, 0.75);
@@ -14,7 +39,7 @@
     cursor: pointer;
 }
 
-.calc_button:last-child {
+button:last-child {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     background: rgba(255, 255, 255, 0.75);
@@ -23,14 +48,15 @@
     box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
     color: #fff;
     background: #d72600;
+    grid-column: 3 / 5;
 }
 
-.calc_button:last-child:hover {
+button:last-child:hover {
     background-color: inherit;
     color: inherit;
 }
 
-.calc_button:hover {
+button:hover {
     background-color: inherit;
 }
 
